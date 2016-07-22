@@ -2,30 +2,37 @@
 
 body {
   background: #71B66F;
+  background-image: url(https://images.unsplash.com/photo-1415906115194-bad6c6bda169?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=de781b870490e14cbb5d3f1e893dadca);
+  background-size: cover;
   box-sizing: border-box;
   margin: 0;
   padding: 20px;
   width: 100%;
 }
 
+
 #calculator {
-  background: #2B3D50;
+  background: #ddd;
   border-radius: 20px;
   padding: 15px;
   width: 335px;
   margin-left: auto;
   margin-right: auto;
+  -webkit-box-shadow: 10px 10px 5px -5px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px -5px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px -5px rgba(0,0,0,0.75);
 }
 
 #screen-container {
-  background: #5E626D;
+  background: #bbb;
   border-radius: 10px;
   padding: 20px;
 }
 
 #screen {
-  background: #EF5D5D;
+  background: #fff;
   border: none;
+  color: black;
   font-family: 'Orbitron', sans-serif;
   font-size: 1.4em;
   font-weight: 600;
