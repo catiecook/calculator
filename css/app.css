@@ -16,6 +16,7 @@ body {
   border-radius: 20px;
   padding: 15px;
   width: 335px;
+  margin-top: 7vw;
   margin-left: auto;
   margin-right: auto;
   -webkit-box-shadow: 10px 10px 5px -5px rgba(0,0,0,0.75);
@@ -44,6 +45,7 @@ body {
 }
 
 #zero {
+  margin-top: 7vw;
   width: 225px;
 }
 
